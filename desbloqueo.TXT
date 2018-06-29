@@ -1,0 +1,217 @@
+TTY 00 SCH MTC BUG CTY   15:46
+OVL111 IDLE   0
+>logi nortel
+PASS?
+
+ WARNING: THE PROGRAMS AND DATA STORED ON THIS SYSTEM ARE LICENSED TO
+ OR ARE THE PROPERTY OF NT/BNR AND ARE LAWFULLY AVAILABLE ONLY TO
+ AUTHORIZED USERS FOR APPROVED PURPOSES. UNAUTHORIZED ACCESS TO ANY
+ PROGRAM OR DATA ON SYSTEM IS NOT PERMITTED. THIS SYSTEM MAY BE
+ MONITORED AT ANY TIME FOR OPERATIONAL REASONS. THEREFORE, IF YOU
+ ARE NOT AN AUTHORIZED USER, DO NOT ATTEMPT TO LOGIN.
+
+.
+TTY #00 LOGGED IN NORTEL 15:46   4/1/1996
+
+>ld 2
+TFC000
+.ttad WED  04 01 1996 15 46 26
+.stad 25 06 2018 19 03 30
+.
+T                        01/04 15:46
+
+T                        06/25 19:03
+
+TFC000
+.ttad MON  25 06 2018 19 03 34
+.
+TFC000
+.****
+.
+OVL000
+>ld 20
+
+PT0000
+REQ: prt
+TYPE: dnb
+CUST 0
+DN   3059
+DATE
+PAGE
+DES
+
+DN   3059
+     CPND
+       CPND_LANG ROMAN
+         NAME ALMACEN
+         XPLN 27
+         DISPLAY_FMT FIRST,LAST
+TYPE SL1
+TN   006 0 00 08 KEY 00 H MARP  DES TRANS     20 APR 2015
+     (2008)
+
+
+NACT
+REQ: stat 6 8
+DSBL
+REQ: enlc 6
+
+REQ: stat 6
+00 = UNIT 00 = IDLE  (2616)
+01 = UNIT 01 = IDLE  (2616)
+02 = UNIT 02 = IDLE  (2616)
+03 = UNIT 03 = IDLE  (2616)
+04 = UNIT 04 = IDLE  (2616)
+05 = UNIT 05 = IDLE  (2616)
+06 = UNIT 06 = IDLE  (2616)
+07 = UNIT 07 = IDLE  (2008)
+08 = UNIT 08 = IDLE  (2008)
+09 = UNIT 09 = IDLE  (2616)
+10 = UNIT 10 = IDLE  (2616)
+11 = UNIT 11 = IDLE  (2616)
+12 = UNIT 12 = IDLE  (2616)
+13 = UNIT 13 = IDLE  (2616)
+14 = UNIT 14 = IDLE  (2616)
+15 = UNIT 15 = IDLE  (2616)
+16 = UNIT 16 = UNEQ
+17 = UNIT 17 = UNEQ
+18 = UNIT 18 = UNEQ
+19 = UNIT 19 = UNEQ
+20 = UNIT 20 = UNEQ
+21 = UNIT 21 = UNEQ
+22 = UNIT 22 = UNEQ
+23 = UNIT 23 = UNEQ
+24 = UNIT 24 = UNEQ
+25 = UNIT 25 = UNEQ
+26 = UNIT 26 = UNEQ
+27 = UNIT 27 = UNEQ
+28 = UNIT 28 = UNEQ
+29 = UNIT 29 = UNEQ
+30 = UNIT 30 = UNEQ
+31 = UNIT 31 = UNEQ
+REQ: end
+>ld 43
+EDD000
+
+edd
+.
+
+DB SEQ NUM = 7620
+CONFIG
+PHYSICAL MAP
+BCS TEMPLATE
+PBX TEMPLATE
+CUST
+ACUST
+CLID
+ROUTE
+LTN TN
+LTN LNK
+TN
+SCL
+ESN  00
+NCTL
+ACD
+AUTH 00
+GRP DNS
+FRL
+NFCR  TREES
+IDC   TREES
+DTAD
+ASNCH
+AML / ELAN
+VAS
+BG-TIME
+BG-CAT
+ARIES
+SYSP
+XPEC
+XTDT
+FTC
+MCAD
+FCAD
+FDCT
+DTI2
+FFC
+LAPW
+MFCI
+MFCO
+TIME
+CPND
+CPND NM
+SPECIFIC DATA
+  ALARM_MGT
+CHECKING
+
+RECORD COUNT =  0064
+
+Starting internal database backup
+to internal backup drive
+Synching drives
+Updating internal backup
+Backing up c:/p/sl1/direct.rec
+Backing up c:/p/disk.sys
+Backing up c:/p/os/diskoscc.sym
+Backing up c:/p/sl1/ovlrescc.sym
+Backing up c:/p/sl1/sl1rescc.sym
+Backing up c:/u/db/database.rec
+Backing up c:/u/db/config.rec
+Backing up c:/u/db/inet.db
+Backing up c:/u/patch/reten/reten.pch
+Backing up c:/u/patch/p11848.11c
+Backing up c:/u/patch/mplr9521
+Backing up c:/u/patch/r2cfn.p
+Backing up c:/u/patch/mplr9521.11c
+Backing up c:/u/patch/p11843.11c
+Backing up c:/u/patch/p11804.11c
+Internal backup complete
+All files are backed up!
+DATADUMP COMPLETE
+
+.
+EDD000
+
+
+.
+AUD000
+
+DTC001
+
+TTY #00 LOGGED OUT NORTEL 19:25  25/6/2018
+SESSION DURATION:  00:22
+
+AUD000
+
+DTC001
+
+AUD000
+
+AUD000
+
+AUD000
+
+DTC001
+
+TIM000 20:00  25/6/2018 CPU 0
+
+DTC001
+
+AUD000
+
+DTC001
+
+AUD000
+
+DTC001
+
+AUD000
+
+DTC001
+
+TIM000 21:00  25/6/2018 CPU 0
+
+DTC001
+
+TTY 00 SCH MTC BUG CTY   21:05
+OVL111 IDLE   0
+>

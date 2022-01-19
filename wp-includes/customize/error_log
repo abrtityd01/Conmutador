@@ -1,0 +1,1 @@
+[15-Feb-2021 03:16:26 America/Mexico_City] PHP Warning:  Use of undefined constant SCRIPT_FILENAME - assumed 'SCRIPT_FILENAME' (this will throw an Error in a future version of PHP) in /home4/abkammx/public_html/itgrupo/wp-includes/customize/class-wp-widget-area-customize-control-ajax-response.php on line 23
